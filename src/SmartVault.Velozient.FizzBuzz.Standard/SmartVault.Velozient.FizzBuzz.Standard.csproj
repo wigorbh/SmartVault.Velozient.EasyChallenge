@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartVault.Velozient.TwistedFizzBuzz.Library\SmartVault.Velozient.TwistedFizzBuzz.Library.csproj" />
+  </ItemGroup>
+
 </Project>
