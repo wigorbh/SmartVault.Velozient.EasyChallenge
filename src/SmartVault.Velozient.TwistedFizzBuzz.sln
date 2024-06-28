@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartVault.Velozient.FizzBuzz.Standard", "SmartVault.Velozient.FizzBuzz.Standard\SmartVault.Velozient.FizzBuzz.Standard.csproj", "{538557DB-9F83-4096-AE08-4905C35AEC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartVault.Velozient.TwistedFizzBuzz.Library", "SmartVault.Velozient.TwistedFizzBuzz.Library\SmartVault.Velozient.TwistedFizzBuzz.Library.csproj", "{EEC032A4-67A3-4FB7-AA11-5E9F8D245FF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwistedFizzBuzz.Tests", "TwistedFizzBuzz.Tests\TwistedFizzBuzz.Tests.csproj", "{C022FE72-E6C5-47A3-8983-B27CDF9585DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartVault.Velozient.FizzBuzz.Tokens", "SmartVault.Velozient.FizzBuzz.Tokens\SmartVault.Velozient.FizzBuzz.Tokens.csproj", "{8637F72B-3531-4927-81DE-20AF7DFFAEAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{538557DB-9F83-4096-AE08-4905C35AEC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538557DB-9F83-4096-AE08-4905C35AEC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538557DB-9F83-4096-AE08-4905C35AEC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538557DB-9F83-4096-AE08-4905C35AEC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC032A4-67A3-4FB7-AA11-5E9F8D245FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC032A4-67A3-4FB7-AA11-5E9F8D245FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC032A4-67A3-4FB7-AA11-5E9F8D245FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC032A4-67A3-4FB7-AA11-5E9F8D245FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C022FE72-E6C5-47A3-8983-B27CDF9585DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C022FE72-E6C5-47A3-8983-B27CDF9585DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C022FE72-E6C5-47A3-8983-B27CDF9585DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C022FE72-E6C5-47A3-8983-B27CDF9585DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8637F72B-3531-4927-81DE-20AF7DFFAEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8637F72B-3531-4927-81DE-20AF7DFFAEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8637F72B-3531-4927-81DE-20AF7DFFAEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8637F72B-3531-4927-81DE-20AF7DFFAEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C65CBBB-9607-49ED-B0E4-483A9FDF1E29}
+	EndGlobalSection
+EndGlobal
