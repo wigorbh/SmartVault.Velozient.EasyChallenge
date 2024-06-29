@@ -10,7 +10,7 @@ public class StandardFizzBuzz
 
         ValidateRange(start, end);
 
-        var results = twistedFizzBuzz.GetFizzBuzzRange(start, end);
+        var results = twistedFizzBuzz.GenerateFizzBuzz(start, end);
 
         Console.WriteLine("*********** RESULT *********:");
         foreach (var fizzBuzz in results)
