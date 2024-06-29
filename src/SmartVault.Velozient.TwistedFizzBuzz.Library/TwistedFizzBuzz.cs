@@ -28,6 +28,12 @@ namespace TwistedFizzBuzzLibrary
             return results;
         }
 
+        /// <summary>
+        /// Generates a list of FizzBuzz results for a collection of numbers.
+        /// Each number in the collection is processed independently.
+        /// </summary>
+        /// <param name="numbers">An enumerable collection of integers.</param>
+        /// <returns>A list of strings where each element represents the FizzBuzz result of a number in the input collection.</returns>
         public List<string> GetFizzBuzzNonSequential(IEnumerable<int> numbers)
         {
             var results = new List<string>();
@@ -67,6 +73,17 @@ namespace TwistedFizzBuzzLibrary
             }
         }
 
+        /// <summary>
+        /// Generates a list of strings based on the given range [start, end].
+        /// Each number is replaced or combined based on divisibility rules:
+        /// - Appends "Fizz" if the number is divisible by 5.
+        /// - Appends "Buzz" if the number is divisible by 9.
+        /// - Appends "Bar" if the number is divisible by 27.
+        /// If none of the conditions are met, converts the number to a string.
+        /// </summary>
+        /// <param name="start">The starting number of the range.</param>
+        /// <param name="end">The ending number of the range.</param>
+        /// <returns>A list of strings where each element represents a number or a combination of conditions within the specified range.</returns>
         public List<string> GenerateFizzBar(int start, int end)
         {
             const string Fizz = "Fizz";

@@ -18,6 +18,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SmartVault.Velozient.FizzBuzz.Standard\SmartVault.Velozient.FizzBuzz.Standard.csproj" />
+    <ProjectReference Include="..\SmartVault.Velozient.FizzBuzz.Tokens\SmartVault.Velozient.FizzBuzz.Tokens.csproj" />
+    <ProjectReference Include="..\SmartVault.Velozient.TwistedFizzBuzz.Library\SmartVault.Velozient.TwistedFizzBuzz.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
