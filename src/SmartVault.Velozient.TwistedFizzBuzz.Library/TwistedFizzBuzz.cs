@@ -1,18 +1,11 @@
-﻿using System.Net.Http;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 
 namespace TwistedFizzBuzzLibrary
 {
     public class TwistedFizzBuzz
     {
-        private readonly HttpClient _client;
-
-        public TwistedFizzBuzz()
-        {
-            _client = new HttpClient();
-        }
-
         /// <summary>
         /// Generates a list of FizzBuzz results for a range of numbers.
         /// </summary>
@@ -46,7 +39,6 @@ namespace TwistedFizzBuzzLibrary
 
             return results;
         }
-
 
         private string GetFizzBuzz(int number)
         {
